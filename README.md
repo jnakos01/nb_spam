@@ -1,6 +1,7 @@
 # nb_spam
 
 nb_spam is a project that flags spam text messages by calculating a posterior probability of the message being spam using the Multinomial Naive Bayes algorithm.
+Manually creates a Naive Bayes model without preexisting Naive Bayes libraries. 
 
 ## Features
 
@@ -27,3 +28,6 @@ Install these dependencies:
 ```bash
 pip install jupyter pandas numpy scikit-learn
 ```
+
+
+Credit to University of Melbourne for the SMS spam dataset.
